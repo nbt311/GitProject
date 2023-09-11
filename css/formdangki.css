@@ -1,5 +1,16 @@
-p {
-    line-height: 0;
-    font-weight: 800;
-    font-size: 150%;
+fieldset {
+ background: lemonchiffon;
+    width: 500px;
+
+}
+h3 {
+    color: blue;
+    background: aquamarine;
+}
+table {
+    width: 500px;
+}
+th {
+    color: blue;
+    text-align: left;
 }
