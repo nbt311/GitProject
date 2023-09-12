@@ -1,0 +1,16 @@
+span {
+    word-spacing: 75px;
+    margin-left: 10px;
+}
+#rate td, th {
+    padding: 20px;
+    border: 1px solid black;
+}
+#rate {
+    border-collapse: collapse;
+
+}
+.col {
+    background-color: lemonchiffon;
+
+}
