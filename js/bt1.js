@@ -3,7 +3,7 @@ let physics = parseInt(document.getElementById("physics").value);
 let chemistry = parseInt(document.getElementById("chemistry").value);
 let biology = parseInt(document.getElementById("biology").value);
 let total = physics + chemistry + biology;
-document.getElementById("tong").innerHTML = " Tổng 3 môn =" + total;
+document.getElementById("result").innerHTML = " Tổng 3 môn =" + total;
 let mediumScore = total/3;
 document.getElementById('dtb').innerHTML = "Điểm trung bình =" + mediumScore;
 }
