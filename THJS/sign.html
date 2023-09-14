@@ -17,16 +17,15 @@
 </script>-->
 <script>
     let value = prompt('Type a number', 0);
-    switch (value){
-        case 0:
+    switch (value === 0 ? value = 'p' : value > 0){
+        case 'p':
             alert(0);
             break;
-        case 1:
+        case true:
             alert(1);
             break;
         default:
             alert(-1);
-
     }
 </script>
 </body>
